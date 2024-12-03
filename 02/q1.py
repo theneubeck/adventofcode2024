@@ -18,6 +18,7 @@ def safe_reports(df):
 
     return df, score, score.sum()
 
+
 if __name__ == "__main__":
     # Use StringIO to treat the string as a file
     txt = """
